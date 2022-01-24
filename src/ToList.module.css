@@ -1,0 +1,82 @@
+/* table, th, td {
+    border:1px solid black;
+  }
+  .class{
+      width:50vw;
+      background-color: rgb(76, 226, 226);
+      border:1px solid black;margin-left:auto;margin-right:auto
+      
+  }
+
+  .container {
+    display: grid;
+    row-gap: 50px;
+  }
+
+  .increase{
+     width: 20vw; 
+     height: 5vh;
+     border:1px solid black;margin-left:auto;margin-right:auto
+  }
+  .btn{
+    height: 5vh;
+  }
+
+  .row {
+	  display: flex; 
+    background-color: rgb(131, 230, 32);
+
+	}
+	.col {
+	  flex: 1; 
+	  
+	  padding: 1em;
+	  border: solid;
+	  margin: 2px;
+	}	
+
+  .card{
+    background-color: rgb(182, 32, 32);
+  } */
+
+
+  table, th, td {
+    border:1px solid black;
+  }
+  .class{
+      width:50vw;
+      background-color: rgb(76, 226, 226);
+      border:1px solid black;margin-left:auto;margin-right:auto
+      
+  }
+
+  .container {
+    display: grid;
+    row-gap: 50px;
+  }
+
+  .increase{
+     width: 20vw; 
+     height: 5vh;
+     border:1px solid black;margin-left:auto;margin-right:auto
+  }
+  .btn{
+    height: 5vh;
+  }
+
+  .row {
+        display: flex; /* equal height of the children */
+    background-color: rgb(131, 230, 32);
+
+      }
+      .col {
+        flex: 1; /* additionally, equal width */
+        
+        padding: 1em;
+        border: solid;
+        margin: 2px;
+      }	
+
+  .card{
+    background-color: rgb(182, 32, 32);
+  }
